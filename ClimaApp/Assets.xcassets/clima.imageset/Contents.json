@@ -1,0 +1,32 @@
+{
+  "images" : [
+    {
+      "filename" : "como-influyen-los-oceanos-en-el-clima-de-mexico-323021-2_768.jpg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "como-influyen-los-oceanos-en-el-clima-de-mexico-323021-2_768-1.jpg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "noche.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

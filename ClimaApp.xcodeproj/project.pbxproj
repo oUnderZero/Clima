@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EDB39A263D5FC600EAFBF3 /* ClimaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB399263D5FC600EAFBF3 /* ClimaManager.swift */; };
+		38EDB39D263E01FD00EAFBF3 /* ClimaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB39C263E01FD00EAFBF3 /* ClimaDatos.swift */; };
+		38EDB3A1263EC9C700EAFBF3 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB3A0263EC9C700EAFBF3 /* Clima.swift */; };
+		60C85ED3261628FC00BD228D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C85ED2261628FC00BD228D /* AppDelegate.swift */; };
+		60C85ED5261628FC00BD228D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C85ED4261628FC00BD228D /* SceneDelegate.swift */; };
+		60C85ED7261628FC00BD228D /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C85ED6261628FC00BD228D /* ClimaViewController.swift */; };
+		60C85EDA261628FC00BD228D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C85ED8261628FC00BD228D /* Main.storyboard */; };
+		60C85EDC261628FD00BD228D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C85EDB261628FD00BD228D /* Assets.xcassets */; };
+		60C85EDF261628FD00BD228D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C85EDD261628FD00BD228D /* LaunchScreen.storyboard */; };
+		60C85EFB2616371400BD228D /* fondo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 60C85EF92616371400BD228D /* fondo.jpeg */; };
+		60C85EFC2616371400BD228D /* noche.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 60C85EFA2616371400BD228D /* noche.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EDB399263D5FC600EAFBF3 /* ClimaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaManager.swift; sourceTree = "<group>"; };
+		38EDB39C263E01FD00EAFBF3 /* ClimaDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaDatos.swift; sourceTree = "<group>"; };
+		38EDB3A0263EC9C700EAFBF3 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima.swift; sourceTree = "<group>"; };
+		60C85ECF261628FC00BD228D /* ClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C85ED2261628FC00BD228D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60C85ED4261628FC00BD228D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60C85ED6261628FC00BD228D /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		60C85ED9261628FC00BD228D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C85EDB261628FD00BD228D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C85EDE261628FD00BD228D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C85EE0261628FD00BD228D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C85EF92616371400BD228D /* fondo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpeg; sourceTree = "<group>"; };
+		60C85EFA2616371400BD228D /* noche.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noche.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C85ECC261628FC00BD228D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C85EC6261628FC00BD228D = {
+			isa = PBXGroup;
+			children = (
+				60C85ED1261628FC00BD228D /* ClimaApp */,
+				60C85ED0261628FC00BD228D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C85ED0261628FC00BD228D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C85ECF261628FC00BD228D /* ClimaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C85ED1261628FC00BD228D /* ClimaApp */ = {
+			isa = PBXGroup;
+			children = (
+				60C85ED2261628FC00BD228D /* AppDelegate.swift */,
+				60C85ED4261628FC00BD228D /* SceneDelegate.swift */,
+				60C85ED6261628FC00BD228D /* ClimaViewController.swift */,
+				60C85ED8261628FC00BD228D /* Main.storyboard */,
+				60C85EDB261628FD00BD228D /* Assets.xcassets */,
+				60C85EDD261628FD00BD228D /* LaunchScreen.storyboard */,
+				60C85EE0261628FD00BD228D /* Info.plist */,
+				60C85EF92616371400BD228D /* fondo.jpeg */,
+				60C85EFA2616371400BD228D /* noche.jpeg */,
+				38EDB399263D5FC600EAFBF3 /* ClimaManager.swift */,
+				38EDB39C263E01FD00EAFBF3 /* ClimaDatos.swift */,
+				38EDB3A0263EC9C700EAFBF3 /* Clima.swift */,
+			);
+			path = ClimaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C85ECE261628FC00BD228D /* ClimaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C85EE3261628FD00BD228D /* Build configuration list for PBXNativeTarget "ClimaApp" */;
+			buildPhases = (
+				60C85ECB261628FC00BD228D /* Sources */,
+				60C85ECC261628FC00BD228D /* Frameworks */,
+				60C85ECD261628FC00BD228D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimaApp;
+			productName = ClimaApp;
+			productReference = 60C85ECF261628FC00BD228D /* ClimaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C85EC7261628FC00BD228D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					60C85ECE261628FC00BD228D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 60C85ECA261628FC00BD228D /* Build configuration list for PBXProject "ClimaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C85EC6261628FC00BD228D;
+			productRefGroup = 60C85ED0261628FC00BD228D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C85ECE261628FC00BD228D /* ClimaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C85ECD261628FC00BD228D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C85EFB2616371400BD228D /* fondo.jpeg in Resources */,
+				60C85EDF261628FD00BD228D /* LaunchScreen.storyboard in Resources */,
+				60C85EFC2616371400BD228D /* noche.jpeg in Resources */,
+				60C85EDC261628FD00BD228D /* Assets.xcassets in Resources */,
+				60C85EDA261628FC00BD228D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C85ECB261628FC00BD228D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C85ED7261628FC00BD228D /* ClimaViewController.swift in Sources */,
+				60C85ED3261628FC00BD228D /* AppDelegate.swift in Sources */,
+				38EDB39A263D5FC600EAFBF3 /* ClimaManager.swift in Sources */,
+				38EDB39D263E01FD00EAFBF3 /* ClimaDatos.swift in Sources */,
+				38EDB3A1263EC9C700EAFBF3 /* Clima.swift in Sources */,
+				60C85ED5261628FC00BD228D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60C85ED8261628FC00BD228D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C85ED9261628FC00BD228D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C85EDD261628FD00BD228D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C85EDE261628FD00BD228D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C85EE1261628FD00BD228D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60C85EE2261628FD00BD228D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C85EE4261628FD00BD228D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ClimaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ClimaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C85EE5261628FD00BD228D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ClimaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ClimaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C85ECA261628FC00BD228D /* Build configuration list for PBXProject "ClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C85EE1261628FD00BD228D /* Debug */,
+				60C85EE2261628FD00BD228D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C85EE3261628FD00BD228D /* Build configuration list for PBXNativeTarget "ClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C85EE4261628FD00BD228D /* Debug */,
+				60C85EE5261628FD00BD228D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C85EC7261628FC00BD228D /* Project object */;
+}
